@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ChenzookSwizzler_Example' do
+  pod 'ChenzookSwizzler', :path => '../'
+
+  target 'ChenzookSwizzler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D250618490AC9EF7CFAD75AE08F96F7 /* Pods-ChenzookSwizzler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C035BABDD7CB7798831A6D041A503A7 /* Pods-ChenzookSwizzler_Tests-dummy.m */; };
+		0ECE4ACAD650238E592B24E45A90908D /* Pods-ChenzookSwizzler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FADA90174BCEBCFA6C695309716C293 /* Pods-ChenzookSwizzler_Example-dummy.m */; };
+		2A28941020CAA9C20086AD59 /* ChenzookSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28940F20CAA9C20086AD59 /* ChenzookSwizzler.swift */; };
+		58ED9FC431F9558B5773CD79849914F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5E04D5072CEF16C84D32E2FFF5FDE6E5 /* ChenzookSwizzler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F27BC202E7F23C25288FA775E9ADE9 /* ChenzookSwizzler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8104BC4DC88D7AE7902CB235102ABC2E /* ChenzookSwizzler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 671B815266198B4D4A961122EDA6C70E /* ChenzookSwizzler-dummy.m */; };
+		BC8D5EB5ED90ADD2463C9BF3BA5AF1CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C2EA7ECD096BD7BE1EEA1F4C76789D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C5096B5A6F83E96FEE17D27A66377C67 /* Pods-ChenzookSwizzler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C43F88A8BA7127567A2BEE2E20781D0 /* Pods-ChenzookSwizzler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF7272AB701ACDD6A4DF18A45DB4F066 /* Pods-ChenzookSwizzler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C74A956D62942249800C99DECD726E83 /* Pods-ChenzookSwizzler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		089653878F1AD304107149242C0E6FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E5EB3CA5740AB0E5A640D9E6D2E76C1;
+			remoteInfo = ChenzookSwizzler;
+		};
+		DAF8F48D358A6BF274899381B42101F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6052EECBA41A12CB75AC5E897354A9;
+			remoteInfo = "Pods-ChenzookSwizzler_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		124D3D3793904AF7A850DC70851F1FE0 /* Pods-ChenzookSwizzler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChenzookSwizzler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		152E76C53F92BB0BF187BE810C1474E7 /* Pods-ChenzookSwizzler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChenzookSwizzler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A28940F20CAA9C20086AD59 /* ChenzookSwizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChenzookSwizzler.swift; path = ChenzookSwizzler/Classes/ChenzookSwizzler.swift; sourceTree = "<group>"; };
+		327CAA3A20D090D6ECE576603AB31043 /* ChenzookSwizzler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ChenzookSwizzler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33D1A631B4D6DDBAE2433A246068AEAC /* Pods-ChenzookSwizzler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChenzookSwizzler_Tests.modulemap"; sourceTree = "<group>"; };
+		348465F8B6E4D41BD57AC89024A31DF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB14D66DF9C07CC9E643342D1097944 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4967B70130C83EDF168CBDBAE0E0EEC9 /* ChenzookSwizzler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChenzookSwizzler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C035BABDD7CB7798831A6D041A503A7 /* Pods-ChenzookSwizzler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChenzookSwizzler_Tests-dummy.m"; sourceTree = "<group>"; };
+		509B562F739303821E99AAF7C83726B6 /* Pods-ChenzookSwizzler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChenzookSwizzler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5E1DEC7AC438735D12A36B3DC0D944E9 /* Pods-ChenzookSwizzler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChenzookSwizzler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		602DD94204CC0C8FA77EF1F0FB4D381B /* Pods-ChenzookSwizzler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChenzookSwizzler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		671B815266198B4D4A961122EDA6C70E /* ChenzookSwizzler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChenzookSwizzler-dummy.m"; sourceTree = "<group>"; };
+		730DAAF86F08BD1F2BBA84A8E62E1513 /* Pods-ChenzookSwizzler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChenzookSwizzler_Example.modulemap"; sourceTree = "<group>"; };
+		746822D0640D6B5C9C9F27146EF02541 /* Pods-ChenzookSwizzler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChenzookSwizzler_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		750B72DF27869D98031CD2915CA16D43 /* ChenzookSwizzler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChenzookSwizzler.modulemap; sourceTree = "<group>"; };
+		7CBC58537AA425A8738DD9BF96D2C9DC /* Pods_ChenzookSwizzler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChenzookSwizzler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FADA90174BCEBCFA6C695309716C293 /* Pods-ChenzookSwizzler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChenzookSwizzler_Example-dummy.m"; sourceTree = "<group>"; };
+		8C43F88A8BA7127567A2BEE2E20781D0 /* Pods-ChenzookSwizzler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChenzookSwizzler_Example-umbrella.h"; sourceTree = "<group>"; };
+		8E372449938C4F8193E57912583CC640 /* Pods-ChenzookSwizzler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChenzookSwizzler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98472F991E1850280D4649816136D6C9 /* Pods-ChenzookSwizzler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChenzookSwizzler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		98F27BC202E7F23C25288FA775E9ADE9 /* ChenzookSwizzler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChenzookSwizzler-umbrella.h"; sourceTree = "<group>"; };
+		A1017802E09AD016D879FB3A59B7B780 /* Pods-ChenzookSwizzler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChenzookSwizzler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BEFFDEB4FCE63DA92C8105DAD5B6A835 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C42A2CCE39E359C95E9B0165C7198018 /* ChenzookSwizzler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChenzookSwizzler-prefix.pch"; sourceTree = "<group>"; };
+		C74A956D62942249800C99DECD726E83 /* Pods-ChenzookSwizzler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChenzookSwizzler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CF6F505C5E0E5ECCBBBECD26152B9F1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D05293D8E9E5D14648197159B8121977 /* ChenzookSwizzler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChenzookSwizzler.xcconfig; sourceTree = "<group>"; };
+		DB6E5E8F2CF7119BC3EA6CA30B607FA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB891CE893D3C8BEF632AB7585A4FCEF /* Pods-ChenzookSwizzler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChenzookSwizzler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EFA7125157157664D3273235BF6E8DE9 /* Pods-ChenzookSwizzler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChenzookSwizzler_Tests-resources.sh"; sourceTree = "<group>"; };
+		F020EB6DFF5B8B8E79D64BB05F0944ED /* Pods-ChenzookSwizzler_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChenzookSwizzler_Example-resources.sh"; sourceTree = "<group>"; };
+		FAAC6B8BA575C4590410BA70DE0F6AD9 /* Pods_ChenzookSwizzler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChenzookSwizzler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		712F446949FCA2FD597A5B4EA23DA118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58ED9FC431F9558B5773CD79849914F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B1F84E3AC3AB08034DDE25D19E797A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EA7ECD096BD7BE1EEA1F4C76789D2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA375FEA81FA120D98F48B7E94CECD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8D5EB5ED90ADD2463C9BF3BA5AF1CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B6BE24934394573D851DB3C9BFB30C /* ChenzookSwizzler */ = {
+			isa = PBXGroup;
+			children = (
+				2A28940F20CAA9C20086AD59 /* ChenzookSwizzler.swift */,
+				2589409642C96FD70C2EAD7638FC99A8 /* Pod */,
+				C55455FD7632ECE9A3D991EF0211129B /* Support Files */,
+			);
+			name = ChenzookSwizzler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2589409642C96FD70C2EAD7638FC99A8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				327CAA3A20D090D6ECE576603AB31043 /* ChenzookSwizzler.podspec */,
+				BEFFDEB4FCE63DA92C8105DAD5B6A835 /* LICENSE */,
+				CF6F505C5E0E5ECCBBBECD26152B9F1C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5DDF605A17380F6A9E5B72242E573890 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				654608EB5745D4E22BA2138DF2F1E2F3 /* Pods-ChenzookSwizzler_Example */,
+				C58D5CAA98DFD203D48149E428170E63 /* Pods-ChenzookSwizzler_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		654608EB5745D4E22BA2138DF2F1E2F3 /* Pods-ChenzookSwizzler_Example */ = {
+			isa = PBXGroup;
+			children = (
+				348465F8B6E4D41BD57AC89024A31DF2 /* Info.plist */,
+				730DAAF86F08BD1F2BBA84A8E62E1513 /* Pods-ChenzookSwizzler_Example.modulemap */,
+				602DD94204CC0C8FA77EF1F0FB4D381B /* Pods-ChenzookSwizzler_Example-acknowledgements.markdown */,
+				5E1DEC7AC438735D12A36B3DC0D944E9 /* Pods-ChenzookSwizzler_Example-acknowledgements.plist */,
+				7FADA90174BCEBCFA6C695309716C293 /* Pods-ChenzookSwizzler_Example-dummy.m */,
+				509B562F739303821E99AAF7C83726B6 /* Pods-ChenzookSwizzler_Example-frameworks.sh */,
+				F020EB6DFF5B8B8E79D64BB05F0944ED /* Pods-ChenzookSwizzler_Example-resources.sh */,
+				8C43F88A8BA7127567A2BEE2E20781D0 /* Pods-ChenzookSwizzler_Example-umbrella.h */,
+				124D3D3793904AF7A850DC70851F1FE0 /* Pods-ChenzookSwizzler_Example.debug.xcconfig */,
+				EB891CE893D3C8BEF632AB7585A4FCEF /* Pods-ChenzookSwizzler_Example.release.xcconfig */,
+			);
+			name = "Pods-ChenzookSwizzler_Example";
+			path = "Target Support Files/Pods-ChenzookSwizzler_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7FD7550A3EDE0B6B0E079C959E4F40B6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E6FD94F35FFC3B65F8A92C90F55A3584 /* Products */,
+				5DDF605A17380F6A9E5B72242E573890 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD7550A3EDE0B6B0E079C959E4F40B6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01B6BE24934394573D851DB3C9BFB30C /* ChenzookSwizzler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C55455FD7632ECE9A3D991EF0211129B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				750B72DF27869D98031CD2915CA16D43 /* ChenzookSwizzler.modulemap */,
+				D05293D8E9E5D14648197159B8121977 /* ChenzookSwizzler.xcconfig */,
+				671B815266198B4D4A961122EDA6C70E /* ChenzookSwizzler-dummy.m */,
+				C42A2CCE39E359C95E9B0165C7198018 /* ChenzookSwizzler-prefix.pch */,
+				98F27BC202E7F23C25288FA775E9ADE9 /* ChenzookSwizzler-umbrella.h */,
+				DB6E5E8F2CF7119BC3EA6CA30B607FA9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ChenzookSwizzler";
+			sourceTree = "<group>";
+		};
+		C58D5CAA98DFD203D48149E428170E63 /* Pods-ChenzookSwizzler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB14D66DF9C07CC9E643342D1097944 /* Info.plist */,
+				33D1A631B4D6DDBAE2433A246068AEAC /* Pods-ChenzookSwizzler_Tests.modulemap */,
+				152E76C53F92BB0BF187BE810C1474E7 /* Pods-ChenzookSwizzler_Tests-acknowledgements.markdown */,
+				A1017802E09AD016D879FB3A59B7B780 /* Pods-ChenzookSwizzler_Tests-acknowledgements.plist */,
+				4C035BABDD7CB7798831A6D041A503A7 /* Pods-ChenzookSwizzler_Tests-dummy.m */,
+				746822D0640D6B5C9C9F27146EF02541 /* Pods-ChenzookSwizzler_Tests-frameworks.sh */,
+				EFA7125157157664D3273235BF6E8DE9 /* Pods-ChenzookSwizzler_Tests-resources.sh */,
+				C74A956D62942249800C99DECD726E83 /* Pods-ChenzookSwizzler_Tests-umbrella.h */,
+				8E372449938C4F8193E57912583CC640 /* Pods-ChenzookSwizzler_Tests.debug.xcconfig */,
+				98472F991E1850280D4649816136D6C9 /* Pods-ChenzookSwizzler_Tests.release.xcconfig */,
+			);
+			name = "Pods-ChenzookSwizzler_Tests";
+			path = "Target Support Files/Pods-ChenzookSwizzler_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6FD94F35FFC3B65F8A92C90F55A3584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4967B70130C83EDF168CBDBAE0E0EEC9 /* ChenzookSwizzler.framework */,
+				FAAC6B8BA575C4590410BA70DE0F6AD9 /* Pods_ChenzookSwizzler_Example.framework */,
+				7CBC58537AA425A8738DD9BF96D2C9DC /* Pods_ChenzookSwizzler_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A33FE4B32CB84A679EB18433B00C771 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5096B5A6F83E96FEE17D27A66377C67 /* Pods-ChenzookSwizzler_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58D0EA9B54A36C52B510D3AC03E905A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7272AB701ACDD6A4DF18A45DB4F066 /* Pods-ChenzookSwizzler_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2D33AE7E99D03C450CA37B37ADD456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E04D5072CEF16C84D32E2FFF5FDE6E5 /* ChenzookSwizzler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A6052EECBA41A12CB75AC5E897354A9 /* Pods-ChenzookSwizzler_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3C8A5B1C9E92AF39EAC413289E072A /* Build configuration list for PBXNativeTarget "Pods-ChenzookSwizzler_Example" */;
+			buildPhases = (
+				DBA2E1EC82ABF788085C5FE1E977D962 /* Sources */,
+				EA375FEA81FA120D98F48B7E94CECD71 /* Frameworks */,
+				1A33FE4B32CB84A679EB18433B00C771 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7706D80F2866062AC4EA2B5D35E4CCC /* PBXTargetDependency */,
+			);
+			name = "Pods-ChenzookSwizzler_Example";
+			productName = "Pods-ChenzookSwizzler_Example";
+			productReference = FAAC6B8BA575C4590410BA70DE0F6AD9 /* Pods_ChenzookSwizzler_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E5EB3CA5740AB0E5A640D9E6D2E76C1 /* ChenzookSwizzler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095FE49581C615D8D236355DE4E22A10 /* Build configuration list for PBXNativeTarget "ChenzookSwizzler" */;
+			buildPhases = (
+				5F71E3C9EBDF3E401E200A971A1E1EBE /* Sources */,
+				712F446949FCA2FD597A5B4EA23DA118 /* Frameworks */,
+				DF2D33AE7E99D03C450CA37B37ADD456 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChenzookSwizzler;
+			productName = ChenzookSwizzler;
+			productReference = 4967B70130C83EDF168CBDBAE0E0EEC9 /* ChenzookSwizzler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B65064D7A58C2B90632828789326B724 /* Pods-ChenzookSwizzler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242E3C893E81FF7F3F2F99FA76AAB4C4 /* Build configuration list for PBXNativeTarget "Pods-ChenzookSwizzler_Tests" */;
+			buildPhases = (
+				AEB22C4CA000E54ED1918A3EAE1E925A /* Sources */,
+				C6B1F84E3AC3AB08034DDE25D19E797A /* Frameworks */,
+				B58D0EA9B54A36C52B510D3AC03E905A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F572E7033C5BFFE65838E006097F9643 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChenzookSwizzler_Tests";
+			productName = "Pods-ChenzookSwizzler_Tests";
+			productReference = 7CBC58537AA425A8738DD9BF96D2C9DC /* Pods_ChenzookSwizzler_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					3E5EB3CA5740AB0E5A640D9E6D2E76C1 = {
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E6FD94F35FFC3B65F8A92C90F55A3584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E5EB3CA5740AB0E5A640D9E6D2E76C1 /* ChenzookSwizzler */,
+				1A6052EECBA41A12CB75AC5E897354A9 /* Pods-ChenzookSwizzler_Example */,
+				B65064D7A58C2B90632828789326B724 /* Pods-ChenzookSwizzler_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F71E3C9EBDF3E401E200A971A1E1EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8104BC4DC88D7AE7902CB235102ABC2E /* ChenzookSwizzler-dummy.m in Sources */,
+				2A28941020CAA9C20086AD59 /* ChenzookSwizzler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB22C4CA000E54ED1918A3EAE1E925A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D250618490AC9EF7CFAD75AE08F96F7 /* Pods-ChenzookSwizzler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA2E1EC82ABF788085C5FE1E977D962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECE4ACAD650238E592B24E45A90908D /* Pods-ChenzookSwizzler_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F572E7033C5BFFE65838E006097F9643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ChenzookSwizzler_Example";
+			target = 1A6052EECBA41A12CB75AC5E897354A9 /* Pods-ChenzookSwizzler_Example */;
+			targetProxy = DAF8F48D358A6BF274899381B42101F2 /* PBXContainerItemProxy */;
+		};
+		F7706D80F2866062AC4EA2B5D35E4CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChenzookSwizzler;
+			target = 3E5EB3CA5740AB0E5A640D9E6D2E76C1 /* ChenzookSwizzler */;
+			targetProxy = 089653878F1AD304107149242C0E6FFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43DF449F0E0D0A051B7461CBDF7DB5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB891CE893D3C8BEF632AB7585A4FCEF /* Pods-ChenzookSwizzler_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChenzookSwizzler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChenzookSwizzler_Example/Pods-ChenzookSwizzler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60B1B152C9819BDC74775AD0D203AD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98472F991E1850280D4649816136D6C9 /* Pods-ChenzookSwizzler_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChenzookSwizzler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChenzookSwizzler_Tests/Pods-ChenzookSwizzler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73723A0E971B724D2BD5E1FB08871BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124D3D3793904AF7A850DC70851F1FE0 /* Pods-ChenzookSwizzler_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChenzookSwizzler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChenzookSwizzler_Example/Pods-ChenzookSwizzler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D0B94E98298E90F6B8A30950E3FFE201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E372449938C4F8193E57912583CC640 /* Pods-ChenzookSwizzler_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChenzookSwizzler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChenzookSwizzler_Tests/Pods-ChenzookSwizzler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8517D379BBEC642CC57BDB7DB480363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05293D8E9E5D14648197159B8121977 /* ChenzookSwizzler.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChenzookSwizzler/ChenzookSwizzler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChenzookSwizzler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChenzookSwizzler/ChenzookSwizzler.modulemap";
+				PRODUCT_MODULE_NAME = ChenzookSwizzler;
+				PRODUCT_NAME = ChenzookSwizzler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE68B41162C389450F82F9A505EEAD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05293D8E9E5D14648197159B8121977 /* ChenzookSwizzler.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChenzookSwizzler/ChenzookSwizzler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChenzookSwizzler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChenzookSwizzler/ChenzookSwizzler.modulemap";
+				PRODUCT_MODULE_NAME = ChenzookSwizzler;
+				PRODUCT_NAME = ChenzookSwizzler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095FE49581C615D8D236355DE4E22A10 /* Build configuration list for PBXNativeTarget "ChenzookSwizzler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE68B41162C389450F82F9A505EEAD75 /* Debug */,
+				E8517D379BBEC642CC57BDB7DB480363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242E3C893E81FF7F3F2F99FA76AAB4C4 /* Build configuration list for PBXNativeTarget "Pods-ChenzookSwizzler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B94E98298E90F6B8A30950E3FFE201 /* Debug */,
+				60B1B152C9819BDC74775AD0D203AD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3C8A5B1C9E92AF39EAC413289E072A /* Build configuration list for PBXNativeTarget "Pods-ChenzookSwizzler_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73723A0E971B724D2BD5E1FB08871BD5 /* Debug */,
+				43DF449F0E0D0A051B7461CBDF7DB5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

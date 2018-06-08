@@ -1,0 +1,16 @@
+PODS:
+  - ChenzookSwizzler (0.1.0)
+
+DEPENDENCIES:
+  - ChenzookSwizzler (from `../`)
+
+EXTERNAL SOURCES:
+  ChenzookSwizzler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChenzookSwizzler: 03164db405e0cc5cd553cbb46fa718e399b4621c
+
+PODFILE CHECKSUM: 49c6b85a81e5c432b5b46abe9a8e919d828f2899
+
+COCOAPODS: 1.5.3

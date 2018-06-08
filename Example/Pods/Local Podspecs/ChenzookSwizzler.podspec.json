@@ -1,0 +1,22 @@
+{
+  "name": "ChenzookSwizzler",
+  "version": "0.1.0",
+  "summary": "A short description of ChenzookSwizzler.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MojtabaHs/ChenzookSwizzler",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MojtabaHs": "hosseini@chenzook.com"
+  },
+  "source": {
+    "git": "https://github.com/MojtabaHs/ChenzookSwizzler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ChenzookSwizzler/Classes/**/*"
+}
